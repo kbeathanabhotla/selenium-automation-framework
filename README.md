@@ -3,8 +3,6 @@ selenium-automation-framework
 
 Execute this using maven with the following command
 
-<br />
-
 mvn clean install -Dbrowser=chrome -Denvironment=dev -Dtestng.groups=group1,group2
 
 
