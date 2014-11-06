@@ -1,4 +1,4 @@
-package com.tagcmd.configuration;
+package com.saikrishna.configuration;
 
 import java.io.InputStream;
 import java.util.Properties;
@@ -9,9 +9,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-import com.tagcmd.pages.LoginPage;
-import com.tagcmd.utils.ElementUtils;
-import com.tagcmd.utils.PageUtil;
+import com.saikrishna.pages.LoginPage;
+import com.saikrishna.utils.ElementUtils;
+import com.saikrishna.utils.PageUtil;
 
 public class TestSetup {
 

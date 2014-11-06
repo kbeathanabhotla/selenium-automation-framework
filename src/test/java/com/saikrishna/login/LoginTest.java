@@ -1,24 +1,19 @@
-package com.tagcmd.login;
+package com.saikrishna.login;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.tagcmd.configuration.DriverManager;
-import com.tagcmd.pages.AssetsHomePage;
-import com.tagcmd.utils.PageUtil;
+import com.saikrishna.utils.PageUtil;
 
 public class LoginTest {
 
-	@Test(groups = { "DAM" })
+	@Test(groups = { "group1" })
 	public void test_login() {
 
 		PageUtil.waitForLoad(3);
 
 		//AssetsHomePage assetsHomePage = PageFactory.initElements(DriverManager.getCurrentDriver(), AssetsHomePage.class);
 
-		System.out.println("---- ran DAM group");
+		System.out.println("---- ran group1 group");
 		
 		/*assetsHomePage.personalAssetsMenu.click();
 		System.out.println("navigated to personal assets page");
@@ -29,14 +24,14 @@ public class LoginTest {
 
 	}
 
-	@Test(groups = { "MRM" })
+	@Test(groups = { "group2" })
 	public void test_login_mrm() {
 
 		PageUtil.waitForLoad(3);
 
 		//AssetsHomePage assetsHomePage = PageFactory.initElements(DriverManager.getCurrentDriver(), AssetsHomePage.class);
 
-		System.out.println("---- ran MRM group");
+		System.out.println("---- ran group2 group");
 		
 		/*assetsHomePage.personalAssetsMenu.click();
 		System.out.println("navigated to personal assets page");

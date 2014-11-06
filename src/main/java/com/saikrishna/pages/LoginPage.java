@@ -1,4 +1,4 @@
-package com.tagcmd.pages;
+package com.saikrishna.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
